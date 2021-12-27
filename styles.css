@@ -1,0 +1,48 @@
+header {   
+display: flex;
+height: 50px;   
+width: auto; 
+background-color: purple;
+color: white;
+padding: 2px;
+margin: 1px;
+border: 2px solid black;
+font size: 19px;
+box-sizing: border-box;}
+
+.william,
+.elderkin {
+color: black;
+background-color: white;
+flex: 2 2 auto;
+}
+
+.menu {
+background-color: black;
+color: blue;
+flex: 1 1 auto;}
+
+.carousel {
+display: flex;
+width: auto;
+height: 250px;
+background-color: red;}
+.app {
+background-color: pink;
+flex: 1;}
+.blog {
+background-color: purple;
+flex: 1;}
+.projects {
+background-color: yellow;
+flex: 1;}
+
+footer {
+display: flex;
+width: auto;
+height: 100px;
+background-color: grey;
+color: white;}
+.contact {
+background-color: blue;
+color: white:}
