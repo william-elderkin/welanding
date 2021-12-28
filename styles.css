@@ -7,7 +7,7 @@ color: white;
 padding: 2px;
 margin: 1px;
 border: 2px solid black;
-font size: 19px;
+font size: 12px;
 box-sizing: border-box;}
 
 .william,
@@ -18,31 +18,60 @@ flex: 2 2 auto;
 }
 
 .menu {
-background-color: black;
-color: blue;
+background-color: transparent;
+color: black;
 flex: 1 1 auto;}
+
+body {
+}
+
+div {
+margin: 2px;
+border: 2px solid black;
+}
 
 .carousel {
 display: flex;
 width: auto;
-height: 250px;
+height: 400px;
 background-color: red;}
+
 .app {
-background-color: pink;
-flex: 1;}
+background-color: white;
+flex: 1;
+}
+
 .blog {
-background-color: purple;
+background-color: white;
 flex: 1;}
+
 .projects {
-background-color: yellow;
+background-color: white;
 flex: 1;}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
 
 footer {
 display: flex;
 width: auto;
-height: 100px;
+height: 50px;
 background-color: grey;
 color: white;}
+
 .contact {
-background-color: blue;
-color: white:}
+background-color: transparent;
+color: white;
+flex: 1;
+}
+
+.about {
+background-color: transparent;
+color: red;
+flex: 1;
+}
+
+
