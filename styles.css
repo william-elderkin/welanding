@@ -2,7 +2,7 @@ header {
 display: flex;
 height: 50px;   
 width: auto; 
-background-color: purple;
+background-color: #b0bf1a;
 color: white;
 padding: 2px;
 margin: 1px;
@@ -13,13 +13,13 @@ box-sizing: border-box;}
 .william,
 .elderkin {
 color: black;
-background-color: white;
+background-color: #e89104;
 flex: 2 2 auto;
 }
 
 .menu {
 background-color: transparent;
-color: black;
+color: #ffbf00 ;
 flex: 1 1 auto;}
 
 body {
@@ -30,23 +30,23 @@ margin: 2px;
 border: 2px solid black;
 }
 
-.carousel {
+.carousel {               /* leave out purples #9966cc  #bfc428 #bf00ec*/
 display: flex;
 width: auto;
 height: 400px;
-background-color: red;}
+background-color: #d3af37;}
 
 .app {
-background-color: white;
+background-color: #ffbf00;
 flex: 1;
 }
 
 .blog {
-background-color: white;
+background-color: #b0bf1a;
 flex: 1;}
 
 .projects {
-background-color: white;
+background-color: #e89104;
 flex: 1;}
 
 ul {
@@ -59,7 +59,7 @@ footer {
 display: flex;
 width: auto;
 height: 50px;
-background-color: grey;
+background-color: #b0bf1a;
 color: white;}
 
 .contact {
@@ -70,7 +70,7 @@ flex: 1;
 
 .about {
 background-color: transparent;
-color: red;
+color: ;
 flex: 1;
 }
 
