@@ -1,28 +1,40 @@
 header {   
 display: flex;
-height: 50px;   
+flex: 3 3 auto;
+height: 3em;   
 width: auto; 
-background-color: #b0bf1a;
+background-color: #b0bf15;
 color: white;
 padding: 2px;
 margin: 1px;
 border: 2px solid black;
-font size: 12px;
-box-sizing: border-box;}
+font size: 18px;
+box-sizing: border-box;
+align-content: center;
+}
 
 .william,
 .elderkin {
 color: black;
 background-color: #e89104;
-flex: 2 2 auto;
+flex: 4 4 auto;
+/*font-size: 26px;*/
+text-align: center;
+align-content: center;
 }
 
 .menu {
 background-color: transparent;
 color: #ffbf00 ;
-flex: 1 1 auto;}
+flex: 1 1 auto;
+text-align: center;
+/*font-size: 26px;*/
+}
 
 body {
+background-color: black;
+display: flex;
+flex-flow: column nowrap;
 }
 
 div {
@@ -30,10 +42,11 @@ margin: 2px;
 border: 2px solid black;
 }
 
-.carousel {               /* leave out purples #9966cc  #bfc428 #bf00ec*/
+.carousel { 
+flex: 6 6 auto;
+width: auto;          /*  leave out purples #9966cc  #bfc428 #bf00ec and orange #e89104 */
 display: flex;
-width: auto;
-height: 400px;
+height: 40em;
 background-color: #d3af37;}
 
 .app {
@@ -46,7 +59,7 @@ background-color: #b0bf1a;
 flex: 1;}
 
 .projects {
-background-color: #e89104;
+background-color: #ffbf00;
 flex: 1;}
 
 ul {
@@ -57,8 +70,9 @@ padding: 0;
 
 footer {
 display: flex;
+flex: 1 1 auto;
 width: auto;
-height: 50px;
+height: 3em;
 background-color: #b0bf1a;
 color: white;}
 
