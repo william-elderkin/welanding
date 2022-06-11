@@ -1,53 +1,54 @@
 header {   
 display: flex;
 flex: 3 3 auto;
-height: 3em;   
+height: 4em;   
 width: auto; 
-background-color: #b0bf15;
+background-color: transparent;
 color: white;
 padding: 2px;
 margin: 1px;
-border: 2px solid black;
-font size: 18px;
+border: 2px solid #b0bf1a;
+/*font size: 18px;*/
 box-sizing: border-box;
 align-content: center;
 }
 
 .william,
 .elderkin {
-color: black;
-background-color: #e89104;
+color: FireBrick;
+background-color: transparent;
 flex: 4 4 auto;
-/*font-size: 26px;*/
+font-size: 20px;
 text-align: center;
 align-content: center;
 }
 
 .menu {
 background-color: transparent;
-color: #ffbf00 ;
+color: FireBrick;
 flex: 1 1 auto;
 text-align: center;
-/*font-size: 26px;*/
+font-size: 26px;
 }
 
 body {
 background-color: black;
+background-image: url('cloud.jpg');
 display: flex;
 flex-flow: column nowrap;
 }
 
 div {
 margin: 2px;
-border: 2px solid black;
+border: 2px solid #d3af37;
 }
 
 .carousel { 
 flex: 6 6 auto;
-width: auto;          /*  leave out purples #9966cc  #bfc428 #bf00ec and orange #e89104 */
+width: auto;          /*  leave out purples #9966cc  #bfc428 #bf00ec and orange #e89104 yellow #d3af37 green #b0bf1a*/
 display: flex;
 height: 40em;
-background-color: #d3af37;}
+background-color: transparent;}
 
 .app {
 background-color: #ffbf00;
@@ -59,7 +60,8 @@ background-color: #b0bf1a;
 flex: 1;}
 
 .projects {
-background-color: #ffbf00;
+background-color: transparent;
+color: #ffbf00; 
 flex: 1;}
 
 ul {
@@ -73,18 +75,18 @@ display: flex;
 flex: 1 1 auto;
 width: auto;
 height: 3em;
-background-color: #b0bf1a;
+background-color: transparent;
 color: white;}
 
 .contact {
 background-color: transparent;
-color: white;
+color: FireBrick;
 flex: 1;
 }
 
 .about {
 background-color: transparent;
-color: ;
+color: FireBrick;
 flex: 1;
 }
 
