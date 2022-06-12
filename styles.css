@@ -7,7 +7,7 @@ background-color: transparent;
 color: white;
 padding: 2px;
 margin: 1px;
-border: 2px solid #b0bf1a;
+border: 2px solid #d3af37;
 /*font size: 18px;*/
 box-sizing: border-box;
 align-content: center;
@@ -22,13 +22,24 @@ font-size: 20px;
 text-align: center;
 align-content: center;
 }
-
+.button {
+  background-color: transparent;
+  border: 2px solid #4f86f7;
+  color: FireBrick;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  flex: 1;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .menu {
 background-color: transparent;
 color: FireBrick;
 flex: 1 1 auto;
 text-align: center;
-font-size: 26px;
+font-size: 22px;
 }
 
 body {
@@ -40,7 +51,7 @@ flex-flow: column nowrap;
 
 div {
 margin: 2px;
-border: 2px solid #d3af37;
+border: 2px solid #4f86f7/*#d3af37*/;
 }
 
 .carousel { 
@@ -53,6 +64,7 @@ background-color: transparent;}
 .app {
 background-color: #ffbf00;
 flex: 1;
+border: 2px solid #b0bf1a;
 }
 
 .blog {
@@ -62,7 +74,9 @@ flex: 1;}
 .projects {
 background-color: transparent;
 color: #ffbf00; 
-flex: 1;}
+flex: 1;
+border: 2px solid #d3af37;
+}
 
 ul {
 list-style-type: none;
@@ -82,12 +96,14 @@ color: white;}
 background-color: transparent;
 color: FireBrick;
 flex: 1;
+border: 2px solid #d3af37;
 }
 
 .about {
 background-color: transparent;
 color: FireBrick;
 flex: 1;
+border: 2px solid #d3af37;
 }
 
 
