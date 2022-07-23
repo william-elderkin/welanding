@@ -1,6 +1,6 @@
 body {
 background-color: white;
-background-image: linear-gradient(white, #a0a000);
+background-image: linear-gradient(#9d00ff, #a0a000);
 display: flex;
 flex-flow: column nowrap;
 }
@@ -40,11 +40,12 @@ margin: 1px;
 }
 .william,
 .elderkin {
-color: #c2ab83;
+color: thistle;
 background-color: transparent;
 flex: 4 4 auto;
 font-size: 20px;
 font-style: italic;
+font: italic small-caps bold 42px/2 cursive;
 text-align: center;
 align-content: center;
 margin: 1px;
@@ -115,14 +116,14 @@ padding: 1px;
 margin: 1px;
 }
 .carousel { 
-background-image: url("images/trees.jpg");
+/*background-image: url("images/trees.jpg");
 flex: 6 6 auto;
 width: auto;          /*  leave out purples #9966cc  #bfc428 #bf00ec and orange #e89104 yellow #d3af37 green #b0bf1a*/
 display: flex;
 height: 40em;
 background-color: transparent;
 margin: 2px;
-border: 4px solid transparent/*#d3af37*/;
+border: 4px solid thistle/*#d3af37*/;
 border-radius: 20px;
 margin: 2px;
 }
